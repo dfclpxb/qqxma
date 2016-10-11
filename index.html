@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>欢迎您登录武总植发在线预约挂号平台</title>
+<link rel="stylesheet" type="text/css" href="/Public/Admin/css/gh.css" media="all">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body id="login-page">
+            <!-- 主体 -->
+<div class="main11" id="gh" style="padding:10px 300px;;">
+	<form action="/index.php?s=add" class="login-form" method="post">
+		<h3 class="welcome">
+			武总植发网上预约挂号平台</h3>
+		<div class="item-box" id="itemBox">
+			<div class="items">
+				<i  style="width:18%; font-size:16px;">&nbsp;&nbsp;姓名:</i> <input autocomplete="off" name="title" placeholder="请填写姓名" style=" width:76%;padding:7px 10px;border:1px solid #ccc;" type="text" /><i style="width:16%; font-size:16px;color:red;">*必填</i></div>
+			<div class="items">
+				<i style="width:18%; font-size:16px;">&nbsp;性别:</i> <select name="type" style="width:30%;"><option selected="selected" value="1">请选择</option><option value="2">男</option><option value="3">女</option></select></div>
+			<div class="items">
+				<i style="width:18%; font-size:16px;">&nbsp;电话:</i> <input autocomplete="off" name="name" placeholder="请填写电话" style="width:76%;padding:7px 10px;border:1px solid #ccc;" type="text" /><i style="width:16%; font-size:16px;color:red;">*必填</i></div>
+			<div class="items"  style="height:26px;">
+			<i style="width:26%; font-size:16px;">预约时间:</i> <input type="text" class="sang_Calender" name="deadline" />
+			<script type="text/javascript" src="datetime.js"></script></div>
+			<div class="items" style="border:none;">
+				<i style="width:30%; font-size:16px;">请在下面文本框填写问题描述</i><br />
+				<textarea cols="35" name="description" rows="10" style="width:96%;"></textarea></div>
+		</div>
+		<div class="login_btn_panel" style="margin:0 auto; ">
+			<button class="login-btn" type="reset"><span class="on">重 填</span></button><button class="login-btn" type="submit"><span class="in">登 录 中 ...</span> <span class="on">确 认</span></button></div>
+	</form>
+</div>
+</body>
+</html>
